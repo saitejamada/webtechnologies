@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="ProductServlet" method="post" enctype="multipart/form-data" >
+<table>
+<h1>Add Product</h1>
+<tr><th>Enter product id</th><td><input type="number" name="pid"></td></tr>
+<tr><th>Enter product Name</th><td><input type="text" name="pname"></td></tr>
+<tr><th>Enter product price</th><td><input type="number" name="pprice"></td></tr>
+<tr><th>Enter product desc</th><td><input type="text" name="pdesc"></td></tr>
+<tr><th>Select product Image</th><td><input type="file" name="pimg" ></td></tr>
+</table>
+
+<input type="submit" value="addProduct">
+</form>
+</body>
+</html>

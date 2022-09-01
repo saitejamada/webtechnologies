@@ -1,0 +1,9 @@
+127.0.0.1 - - [21/Mar/2022:09:36:26 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Mar/2022:09:36:28 +0530] "GET /AssignJobPortal/Jobrecurit.jsp HTTP/1.1" 200 914
+0:0:0:0:0:0:0:1 - - [21/Mar/2022:09:36:29 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [21/Mar/2022:09:36:47 +0530] "POST /AssignJobPortal/Jobrecurit HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Mar/2022:09:36:48 +0530] "GET /AssignJobPortal/NavBar.jsp HTTP/1.1" 200 1162
+0:0:0:0:0:0:0:1 - - [21/Mar/2022:09:36:58 +0530] "GET /AssignJobPortal/Search.jsp?search=degree HTTP/1.1" 200 516
+0:0:0:0:0:0:0:1 - - [21/Mar/2022:09:37:07 +0530] "GET /AssignJobPortal/Search.jsp?search=btech HTTP/1.1" 200 514
+0:0:0:0:0:0:0:1 - - [21/Mar/2022:09:37:33 +0530] "GET /AssignJobPortal/JobSeekerRegister.jsp HTTP/1.1" 200 1150
+0:0:0:0:0:0:0:1 - - [21/Mar/2022:09:38:01 +0530] "POST /AssignJobPortal/JobSekkerServlet HTTP/1.1" 200 20

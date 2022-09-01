@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+
+#headbar {background-color:brown;display:flex;height:100px}
+
+#img1{height:70px;padding-left:150px;padding-top:15px}
+
+#in1{height:40px;width:410px;margin-top:25px;margin-left:120px;margin-right:225px;font-family:cursive;border-radius:10px}
+
+button{height:39px;width:80px;border-radius:10px;margin-top:25px;margin-left:5px;background-color:white;font-family:cursive;font-size:15px}
+
+.submenu1 ul{display:none;}
+
+*{ text-decoration:none;border-radius:5px}
+
+ul {list-style:none;font-size:20px;font-family:cursives;color:white}
+
+nav{background-color:black;height:60px;color:white}
+
+nav ul{display:flex;position:absolute;}
+
+nav ul li{margin-right:70px}
+
+nav ul li:hover .submenu1 ul {display:block;width:auto;top:10px;right:-90px;background-color:cyan}
+
+.submenu1 ul:hover{ background-color:yellow}
+ul li ul li:hover{background-color:yellow;}
+
+#leftdiv{height:auto;width:30%}
+
+#rightdiv{float:right;height:auto;width:65%}
+
+#leftdiv ul li{ padding:5px}
+
+h4{color:brown}
+
+#aboutdiv a{padding:25px;font-family:cursive;font-size:20px}
+
+#imgdiv {margin-top:15px;padding-left:10px}
+
+footer{background-color:brown;height:90px;margin-top:100px}
+
+h3{color:white;padding-top:25px;padding-left:90px}
+</style>
+</head>
+<body>
+<div id="headbar"><div><img id="img1" src="logo-new.png"></div><div><input id="in1" type="search" placeholder="Serach"></input></div><button><a href="#">Login</a></button><button><a href="#">Sign-Up</a></button></div>
+
+		<nav>
+		<ul>
+		<li >Books
+		<div class="submenu1">
+		<ul>
+		<li><a href="#">Architecture</a></li>
+		<li><a href="#">Arts & Photography</a></li>
+		<li><a href="#">Biographies & Memoirs</a></li>
+		<li><a href="#">Body,mind & space</a></li>
+		<li><a href="#">Biographies & Memoirs</a></li>
+		<li><a href="#">Business & Economics</a></li>
+		<li><a href="#">children & Teens</a></li>
+		<li><a href="#">cookers,food & wine</a></li>
+		<li><a href="#">Dictonaries & Languages</a></li>
+		<li><a href="#">English language & Teaching</a></li>
+		<li><a href="#">Environment & Geography</a></li>
+		<li><a href="#">Family & health</a></li>
+		<li><a href="#">Project Management</a></li>
+		<li><a href="#">Fiction</a></li>
+		<li><a href="#">history & humanities</a></li>
+		<li><a href="#">Law</a></li>
+		<li><a href="#">Lifestyle</a></li>
+		<li><a href="#">Medicine</a></li>
+		<li><a href="#">Music</a></li>
+		<li><a href="#">Nursing</a></li>
+		</li>
+		</ul>
+		<li>New Arrivals</li>
+		<li>Pre order</li>
+		<li>Best Sellers</li>
+		<li>Text Books</li>
+		<li>Award Winners</li>
+		<li>Featured Authours</li>
+		</ul>
+		</nav>
+
+
+<div id="rightdiv">
+<div id="imgdiv"><img src="book.png"></div>
+<div id="aboutdiv"> <a href="">Best Sellers</a><a href="">New Arrivals</a><a href="">Pre Orderss</a></div>
+<table>
+<tr><td><figure><img src="book1.jpg"><figcaption>Price:500</figcaption></figure></td><td><figure><img src="book2.jpg"><figcaption>Price:400</figcaption></figure></td><td><figure><img src="book3.jpg"><figcaption>Price:300</figcaption></figure></td><td><figure><img src="book4.jpg"><figcaption>Price:200</figcaption></figure></td></tr>
+<tr><td><figure><img src="book5.jpg"><figcaption>Price:500</figcaption></figure></td><td><figure><img src="book6.jpg"><figcaption>Price:400</figcaption></figure></td><td><figure><img src="book7.jpg"><figcaption>Price:300</figcaption></figure></td><td><figure><img src="book8.jpg"><figcaption>Price:200</figcaption></figure></td></tr>
+
+</table>
+</div>	
+
+<div id="leftdiv">
+		
+		<ul id="ul1">
+		<h4>Browse By category</h4>
+		<li><a href="#">Architecture</a></li>
+		<li><a href="#">Arts & Photography</a></li>
+		<li><a href="#">Biographies & Memoirs</a></li>
+		<li><a href="#">Body,mind & space</a></li>
+		<li><a href="#">Biographies & Memoirs</a></li>
+		<li><a href="#">Business & Economics</a></li>
+		<li><a href="#">children & Teens</a></li>
+		<li><a href="#">cookers,food & wine</a></li>
+		<li><a href="#">Dictonaries & Languages</a></li>
+		<li><a href="#">English language & Teaching</a></li>
+		<li><a href="#">Environment & Geography</a></li>
+		<li><a href="#">Family & health</a></li>
+		<li><a href="#">Project Management</a></li>
+		<li><a href="#">Fiction</a></li>
+		<li><a href="#">history & humanities</a></li>
+		<li><a href="#">Law</a></li>
+		<li><a href="#">Lifestyle</a></li>
+		<li><a href="#">Medicine</a></li>
+		<li><a href="#">Music</a></li>
+		<li><a href="#">Nursing</a></li>
+
+</ul>
+</div>
+<footer>
+<h3>All rights Resevered</h3>
+</footer>
+</body>
+</html>

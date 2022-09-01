@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Myntra</title>
+<style>
+#headbar
+		{
+			background-color:cyan;display:flex;height:100px
+		}
+#img1{
+		height:50px;padding-left:200px;padding-top:20px
+	}
+#in1
+	{
+		height:40px;width:410px;margin-top:22px;margin-left:10px;margin-right:25px;font-family:cursive;border-radius:15px
+	}
+button
+		{
+			height:39px;width:110px;border-radius:15px;margin-top:25px;margin-left:5px;background-color:lightgrey;font-family:cursive
+		}
+#navbar
+		{
+			height:190px;display:flex
+		}
+
+#hover1:hover
+		{
+			background-color:lightgrey
+		}
+
+ul
+	{
+		font-family:cursive;font-size:20px;list-style:none;margin:0px;padding:0px;text-align:center
+	}
+
+figcaption{font-family:cursive;font-size:20px}
+
+ ul {display:none;background-color:cyan}
+ 
+#hover1:hover ul {display:block;color:blue}
+
+ul :hover{background-color:red}
+
+ul li ul li { display:none;background-color:red}
+
+ul li:hover ul li{background-color:yellow;position:relative;left:210px;display:block;}
+
+ ul li ul li:hover{background-color:red}
+
+</style>
+</head>
+<body>
+<div id="headbar"><div><img id="img1" src="logo.jpg"></div><div><input id="in1" type="search" placeholder="Serach"></input></div><button><a href="login.html"><font size="5">Login</font></a></button><button><a href="Registration.html"><font size="5">Sign-Up</font></a></button></div>
+<nav id="navbar">
+<div><figure><img src="mobile.png"><figcaption>Mobiles</figcaption></figure></div>
+<div><figure><img src="fur.jpg"><figcaption>Furniture</figcaption></figure></div>
+<div><figure><a href="#"><img src="elec.png"></a><figcaption>Electronics</figcaption></figure></div>
+
+<div id="hover1">
+<figure><img src="fashion.png"><figcaption>Fashion</figcaption></figure>
+
+<ul>
+	<li><a href="">men</a></li>
+	<li><a href="">women</a>
+		<ul>
+			<li>western</li>
+			<li>Traditional</li>
+			<li>Designer</li>
+		</ul>
+	</li>
+	<li><a href="">Kids</a></li>
+	<li><a href="">Babies</a></li>
+</ul>
+</div>
+
+<div><figure><img src="appliances.png"><figcaption>Appliances</figcaption></figure></div>
+<div><figure><img src="gor.png"><figcaption>Groceries</figcaption></figure></div>
+</nav>
+</body>
+</html>

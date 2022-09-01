@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Myntra</title>
+<style>
+#headbar
+		{
+			background-color:cyan;display:flex;height:100px
+		}
+#img1{
+		height:50px;padding-left:200px;padding-top:20px
+	}
+#in1
+	{
+		height:40px;width:410px;margin-top:22px;margin-left:10px;margin-right:25px;font-family:cursive;border-radius:15px
+	}
+button
+		{
+			height:39px;width:110px;border-radius:15px;margin-top:25px;margin-left:5px;background-color:lightgrey;font-family:cursive
+		}
+		
+*{margin:0px;padding:0px;font-family:cursive;text-decoration:none;font-size:22px}
+
+
+nav{background-color:transparent;text-align:center}
+
+nav ul{ display:inline-flex;list-style:none;}
+
+nav ul li{width:190px;margin:10px;padding:10px}
+
+nav ul li:hover{background-color:cyan}
+
+#submenu1{display:none;}
+
+nav ul li:hover #submenu1{display:block;position:absolute;background-color:lightgrey;margin-top:10px}
+
+nav ul li:hover #submenu1 ul{display:block}
+
+nav ul li:hover #submenu1 ul li{width:150px;padding:0px;background:transparent;text-align:left}
+
+#submenu1 ul li :hover{background-color:red;}
+
+.submenu2{display:none}
+
+#a1:hover .submenu2{ position:absolute;display:block;margin-top:-40px;margin-left:160px;background:yellow}
+
+#a2:hover .submenu2{ position:absolute;display:block;margin-top:-40px;margin-left:160px;background:yellow}
+
+#submenu2 :hover ul li{background-color:red}
+
+#div2{margin:150px;}
+
+#div2 img{ height:350px;width:350px}
+ 
+ p{ font-size:20px}
+
+
+</style>
+</head>
+<body>
+<div id="headbar"><div><img id="img1" src="logo.jpg"></div><div><input id="in1" type="search" placeholder="Serach"></input></div></div>
+		<nav>
+		<ul>
+		<li><figure><a href="Mobile.html"><img src="mobile.png"></a><figcaption>Mobiles</figcaption></figure></li>
+		<li><figure><a href="furniture.html"><img src="fur.jpg"></a><figcaption>Furniture</figcaption></figure></li>
+		<li><figure><a href="electronics.html"><img src="elec.png"></a><figcaption>Electronics</figcaption></figure></li>
+		<li><figure><a href="#"><img src="fashion.png"></a><figcaption>Fashion</figcaption></figure>
+		<div id="submenu1">
+		<ul>
+		<li><a href="Men.html">Men</a></li>
+		<li id="a1"><a href="#" >Women</a>
+		<div class="submenu2">
+		<ul>
+		<li><a href="Girl.html">Traditional</a></li>
+		<li><a href="#">Designer</a></li>
+		<li><a href="#">Western</a></li>
+		</ul>
+		</div>
+		</li>
+		<li id="a2"><a href="Kid.html" >Kids</a>
+		<div class="submenu2">
+		<ul>
+		<li><a href="#">Girl</a></li>
+		<li><a href="#">Boy</a></li>
+		</ul>
+		</div>
+		</li>
+		<li><a href="#">NewBorn</a></li>
+		</ul>
+		</div>
+		</li>
+		<li><figure><a href="appli.html"><img src="appliances.png"></a><figcaption>Appliances</figcaption></figure></li>
+		<li><figure><a href="Grocies.html"><img src="gor.png"></a><figcaption>Groceries</figcaption></figure></li>
+		</ul>
+		</nav>
+
+<div id="div2"> 
+<img src="C:\emfec_web_workspace\Shopping\src\main\webapp\images\mob.jpg">
+<img src="C:\emfec_web_workspace\Shopping\src\main\webapp\images\mob2.jpg">
+<p>The new Telephoto camera features a 77 mm focal length and 3x optical zoom — great for classic portraiture or shooting clearer photos and videos from far away. For closer subjects, try Portrait mode, where you can dial in the bokeh and experiment with studio-quality lighting effects.</p>
+
+<input type="button" value="Add To cart">
+</div>
+
+
+</body>
+</html>

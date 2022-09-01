@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body{background-color:lightblue}
+#super { 
+		 background-color:white;
+         height:490px;
+		 width:600px;
+		 margin-top:90px;
+		 margin-left:400px;
+		 box-shadow:0px 0px 20px grey;
+		  border-radius:15px
+	   }
+#mg { padding-left:110px;
+      height:150px;
+	  width:350px;
+	  padding-bottom:26px
+    }
+.dfg {
+      display:flex;
+	  height:70px;
+	  width:500px;
+	  background-color:white
+	  }
+input {
+		
+        height:64px;
+		width:300px;
+		outline:0px;
+		font-weight:bold;
+		font-size:20px;
+		border-radius:15px;
+		margin-left:0px;margin-bottom:20px
+		}
+i {
+
+    border:2px solid;
+	border-right:none;
+	margin-left:110px
+ }
+ 
+#user {height:64px;
+		width:318px
+		}
+
+#bbbb {
+         height:50px;
+		 width:120px;
+		 font-weight:bold;
+		 font-size:20px;
+		 margin-left:200px;
+		 border-radius:15px;
+		 color:blue
+		}
+td{ font-weight:bold;
+		 font-size:20px;margin-top:16px	;padding-left:30px}
+</style>
+</head>
+<body>
+<div id="super">
+   <img id="mg" src="img/logo.jpg"></img>
+<div class="dfg">
+<form action="adminloginservlet" method="post">
+<table>
+<tr><td>Admin Id</td><td><input type="number" name="uid"></td></tr>
+<tr><td>Admin Password</td><td><input type="password" name="upass"></td></tr>
+</table>
+<input  id="bbbb"type="submit" value="submit" >
+</form>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="customer" class="com.customer.bean.Customer">
+<property name="cid" value="1511"/>
+<property name="name" value="teja"/>
+<property name="mobileno" value="8499595959"/>
+<property name="address" value="Hyderabad"/>
+</bean>
+
+</beans>

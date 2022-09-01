@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body
+{
+font-family:cursive;
+margin:0;
+}
+.menu
+{
+border:solid;
+
+}
+.menu ul
+{
+background-color:pink;
+list-style-type:none;
+margin:0;
+padding:0;
+float:left;
+}
+.menu ul li a
+{
+color:green;
+text-decoration:none;
+font-size:15px;
+line-height:32px;
+padding:0 15px;
+display:block;
+}
+.menu ul li
+{
+padding:0;
+margin:0;
+float:left;
+position:relative;
+
+}
+.menu ul ul
+{
+
+background-color:yellow;
+position:absolute;
+display:none;
+}
+.menu ul li:hover > ul
+{
+display:block;
+}
+</style>
+</head>
+<body>
+<nav class="menu">
+<ul>
+<li><a href="#">Menu1</a>
+<ul>
+<li><a href="#">SubMenu1</a></li>
+<li><a href="#">SubMenu2</a></li>
+<li><a href="#">SubMenu3</a></li>
+<li><a href="#">SubMenu4</a></li>
+</ul>
+</li>
+<li><a href="#">Menu2</a></li>
+<li><a href="#">Menu3</a></li>
+<li><a href="#">Menu4</a></li>
+</ul>
+</nav>
+</body>
+</html>

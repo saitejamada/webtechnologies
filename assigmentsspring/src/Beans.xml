@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="e" class="com.pojo.Student">
+<property name="sid" value="150"/>
+<property name="name" value="ram"/>
+<property name="course" value="mca"/>
+<property name="marks" value="650"/>
+</bean>
+
+<bean id="b" class="com.pojo.Book">
+<property name="bid" value="1510"/>
+<property name="bookname" value="Game Of Thrones"/>
+<property name="price" value="550"/>
+<property name="authour" value="George Rr Martin"/>
+</bean>
+
+<bean id="p" class="com.pojo.Products">
+<property name="pid" value="1511"/>
+<property name="name" value="Tv"/>
+<property name="price" value="25559"/>
+</bean>
+
+<bean id="bank" class="com.pojo.Bank">
+<property name="bacno" value="843245673432"/>
+<property name="bankname" value="SBI"/>
+<property name="holdername" value="Saiteja"/>
+<property name="address" value="Nizamabad"/>
+<property name="accountbalance" value="25646"/>
+</bean>
+
+<bean id="customer" class="com.pojo.Customer">
+<property name="cid" value="1511"/>
+<property name="name" value="teja"/>
+<property name="mobileno" value="8499595959"/>
+<property name="address" value="Hyderabad"/>
+</bean>
+
+</beans>
